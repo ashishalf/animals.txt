@@ -9,7 +9,7 @@ no = 0
 a = n + " is "
 for i in txt:
     no = no + 1
-    print("printed: " + a + i + no)
+    print("printed: " + a + i + str(no) + " of 521")
     pg.write(a + i)
     pg.press("Enter")
     sleep(0.8)
